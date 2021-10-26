@@ -8,6 +8,8 @@ html {
 body {
     color: #000;
     font-size:  2rem;  /*video said to put 2rem, but in class I put 2.5 rem */
+    margin:0;
+    text-align: center;
 }
 
 
@@ -15,7 +17,7 @@ body {
 header {
     background-color:   DeepSkyBlue;
     border: 10px solid orange;
-    margin:50px;
+    margin:10px;
     padding:50px;
     display: flex;
     justify-content: space-between;         /* moves items along Main Axis */
@@ -49,14 +51,14 @@ footer {
 
 
 section {
-    background-color: yellow; 
+    background-color: yellow;
+    margin: 25px;
+    width: 70vw;
     border: 10px solid orange;
-    margin:25px;
     padding:25px;
     display: flex;
     justify-content: space-around;         /* moves items along Main Axis */
     align-items: center; 
-    width:  70vw;
 }
 
 
@@ -65,5 +67,5 @@ aside {
     background-color: lightGreen;
     border: 10px solid orange;
     margin:20px;
-    padding:20px;
+    padding:30px;
 }

@@ -5,8 +5,9 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: space-around;
     list-style-type: none;
+    justify-content: space-around;         /* moves items along Main Axis */
+    align-items: center; 
     
 }
     
@@ -22,4 +23,5 @@ nav ul li a {
 
 .profile {
     flex-grow: 1;
+    
 }
