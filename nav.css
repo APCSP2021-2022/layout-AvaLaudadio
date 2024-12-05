@@ -1,0 +1,27 @@
+nav {
+    background-color:LightYellow;
+    flex-grow: 5;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;         /* moves items along Main Axis */
+    align-items: center; 
+    
+}
+    
+
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.profile {
+    flex-grow: 1;
+    
+}
